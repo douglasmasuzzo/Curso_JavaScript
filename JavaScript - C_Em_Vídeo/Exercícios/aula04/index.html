@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JavaScript</title>
+</head>
+<body>
+    <h1>TRabalhando com Dados</h1>
+        <button onclick="inicio()">Clique para iniciar...</button>
+        <section id="resultado">
+            <p>Aqui o resultado será exibido</p>
+        </section>
+<script>
+    function inicio(){
+        let nome = prompt('Qual é seu nome?');
+        let resul = document.getElementById('resultado');
+        
+        // o comando abaixo também pode ser usado
+        // let resul = document.querySelector('section#resul')
+
+        res.innerHTML = `<p>Olá, <strong>${nome}</strong>! É um prazer conhecê-lo!`;
+    }
+</script>
+</body>
+</html>

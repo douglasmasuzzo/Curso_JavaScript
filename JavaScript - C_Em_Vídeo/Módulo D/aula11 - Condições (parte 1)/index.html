@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+    <title>DETRAN - Sistema de Multas</title>
+<body>
+    <h1>Verificador de Multas</h1>
+     Velocidade do carro: <input type="number" name="txtvelocidade" id=txtvelocidade> KM/H
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div> 
+<script>
+    function verificar() {
+        var txtV = window.document.querySelector('input#txtvelocidade');
+        var vel = Number(txtV.value);
+        var res = window.document.querySelector('div#res');
+        res.innerHTML = `A velocidade do carro é ${vel} km/h`;
+        res.innerHTML += `<p>Dirija sempre com cintto de segurança</p>`;
+
+        if ( vev >= 60 ) {
+            res.innerHTML += `<p>Você foi multado!</p>`;
+        } else {
+            res.innerHTML += `<p>Você está dirigindo dentro do Limite de Velocidade</p>`;
+        }
+    }
+</script>
+</body>
+</head>
+</html>

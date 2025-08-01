@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade em JavaScript</title>
+    <style>
+        body{
+            background-color: rgb(123, 0, 128);
+            font: normal 20pt arial;
+        }
+        h1{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício em JS</h1>
+    <p>
+        <script>
+            var nacionalidade = prompt('Qual é a sua nacionalidade?');
+                document.write( `Uau, então você é <strong>${nacionalidade}</strong>?! Prazer em te conhecer!` );
+            var país;
+                switch(nacionalidade.toLowerCase()){
+                    case 'brasileiro':
+                        pais = 'Brasil';
+                    break;
+                    case 'americano':
+                        pais = 'Estados Unidos';
+                    break;
+                    case 'português':
+                        pais = 'Portugal';
+                    break;
+                    case 'argentino':
+                        pais = 'Argentina';
+                    break;
+                    case 'mexicano':
+                        pais = 'México';
+                    break;
+                    default:
+                        pais = 'um lugar incrível';
+                }
+                    document.write( `<br>Ah! Então você é ${nacionalidade}?! O(A) ${país} é um belo lugar para visitar.` );
+        </script>
+    </p>
+</body>
+</html>
