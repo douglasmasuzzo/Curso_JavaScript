@@ -1,2 +1,2 @@
 # Curso_JavaScript
-Material relacionado ao curso de JavaScript ( CursoEmVideo )
+Repositório criado conforme o curso ( JavaScript ). Este repositório foi criado com intuito de aplicar e examinar os conhecimentos propostos em aula.
