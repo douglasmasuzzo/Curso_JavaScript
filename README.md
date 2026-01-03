@@ -92,7 +92,7 @@ Este diretório reúne os materiais de estudo, anotações e exercícios desenvo
   - Projetos Front-End
     * [ **Gerenciamento de Senhas** ]( https://github.com/douglasmasuzzo/Projetos_Ferias/tree/main/Projeto%20-%20Ger.%20de%20Senhas ) 
   - Consumo de API's e Integração com Back-End 
-    * [ **DataBase Curso** ]( https://github.com/douglasmasuzzo/Projetos_Ferias/tree/main/Projeto%20-%20DataBase_Curso )
+    * [ **Sistema de Gerenciamento de Banco de Dados com Node.js** ]( https://github.com/douglasmasuzzo/Projetos_Ferias/tree/main/Projeto%20-%20DataBase_Curso )
 
 ------------------------------------------------------------------------------
 
